@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 // eslint-disable-next-line react/prop-types
 const Button = ({ title, id, rightIcon, leftIcon, containerClass }) => {
   return (
@@ -10,6 +9,7 @@ const Button = ({ title, id, rightIcon, leftIcon, containerClass }) => {
       <span className="relative incline-flex overflow-hidden font-general text-xs uppercase">
         <div>{title}</div>
       </span>
+      {rightIcon}
     </button>
   )
 }
