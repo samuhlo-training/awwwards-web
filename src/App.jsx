@@ -1,4 +1,5 @@
 import About from './sections/About'
+import Features from './sections/Features'
 import Hero from './sections/Hero'
 import NavBar from './sections/NavBar'
 
@@ -8,6 +9,7 @@ const App = () => {
       <NavBar />
       <Hero />
       <About />
+      <Features />
     </main>
   )
 }
