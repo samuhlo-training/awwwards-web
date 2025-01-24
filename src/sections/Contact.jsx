@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import AnimatedTitle from '../components/AnimatedTitle'
 import Button from '../components/Button'
 import ImageClipBox from '../components/ImageClipBox'
@@ -18,7 +17,7 @@ const Contact = () => {
           />
         </div>
 
-        <div className="absolute -top-40 left-20 w-60 sm:top-1/2 md:left-auto md:right-10 lg:top-20 lg:w-80">
+        <div className="absolute -top-40 left-20 w-60 sm:top-1/2 sm:max-md:top-1/2 sm:max-md:left-[60%] md:left-auto md:right-10 lg:top-20 lg:w-80">
           <ImageClipBox
             src="/img/swordman-partial.webp"
             clipClass="absolute md:scale-125"
@@ -30,7 +29,7 @@ const Contact = () => {
         </div>
 
         <div className="flex flex-col items-center text-center">
-          <p className="mb-10 font-general text-[10px] uppercase">
+          <p className="mb-10 font-general text-[10px] uppercase max-sm:hidden">
             Join Zentry
           </p>
 
