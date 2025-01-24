@@ -17,6 +17,19 @@ const NavBar = () => {
 
   const { y: currentScrollY } = useWindowScroll()
 
+  const toggleAudioIndicator = () => {
+    setIsAudioPlaying((prev) => !prev)
+    setIsIndicatorActive((prev) => !prev)
+  }
+
+  useEffect(() => {
+    if (isAudioPlaying) {
+      audioElementRef.current.play()
+    } else {
+      audioElementRef.current.pause()
+    }
+  }, [isAudioPlaying])
+
   useEffect(() => {
     if (currentScrollY === 0) {
       setIsNavVisible(true)
@@ -38,19 +51,6 @@ const NavBar = () => {
       duration: 0.2,
     })
   }, [isNavVisible])
-
-  const toggleAudioIndicator = () => {
-    setIsAudioPlaying((prev) => !prev)
-    setIsIndicatorActive((prev) => !prev)
-  }
-
-  useRef(() => {
-    if (isAudioPlaying) {
-      audioElementRef.current.play()
-    } else {
-      audioElementRef.current.pause()
-    }
-  }, [isAudioPlaying])
 
   return (
     <div
@@ -84,7 +84,7 @@ const NavBar = () => {
               className="ml-10 flex items-center space-x-0.5"
               onClick={toggleAudioIndicator}
             >
-              <audio ref={audioElementRef} src="/audio/loop.mp3" loop />
+              <audio ref={audioElementRef} src="audio/loop.mp3" loop />
               {[1, 2, 3, 4].map((bar) => (
                 <div
                   key={bar}
