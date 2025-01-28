@@ -78,7 +78,7 @@ const Features = () => {
           </BentoTilt>
           <BentoTilt className="bento-tilt_2">
             <video
-              src="videos/feature-5.mp4"
+              src="/videos/feature-5.mp4"
               loop
               muted
               autoPlay

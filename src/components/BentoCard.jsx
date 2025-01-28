@@ -1,6 +1,5 @@
-/* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
-const BentoCard = ({ src, title, description, isComingSoon }) => {
+const BentoCard = ({ src, title, description }) => {
   return (
     <div className="relative size-full">
       <video

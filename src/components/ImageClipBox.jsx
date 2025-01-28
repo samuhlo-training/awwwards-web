@@ -2,7 +2,7 @@
 const ImageClipBox = ({ src, clipClass }) => {
   return (
     <div className={clipClass}>
-      <img src={src} />
+      <img alt={src} src={src} />
     </div>
   )
 }

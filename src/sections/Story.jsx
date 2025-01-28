@@ -1,7 +1,7 @@
 import { useRef } from 'react'
 import AnimatedTitle from '../components/AnimatedTitle'
 import gsap from 'gsap'
-import RoundedCornenrs from '../components/RoundedCornenrs'
+import RoundedCornenrs from '../components/RoundedCorners.jsx'
 import Button from '../components/Button'
 
 const Story = () => {
