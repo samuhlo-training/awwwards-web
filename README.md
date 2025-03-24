@@ -1,111 +1,49 @@
-# React + Vite + TailwindCSS Project
+<div align="center">
 
-Este es un proyecto desarrollado con **React** y **Vite**, que incluye la configuración de **TailwindCSS**, ESLint, Prettier y otras herramientas modernas para facilitar un flujo de trabajo ágil y eficiente. Este es un excelente punto de partida para crear aplicaciones web rápidas y escalables.
+# 🌟 Awwwards Web Style
 
----
+Este proyecto es una aplicación web construida con **React** y **GSAP**. Esta hecho para aprender las nociones basicas y el uso de GSAP con React en una web.
 
-## 🚀 Características Principales
+ <p>Creado siguiendo el curso de <a href='https://www.jsmastery.pro/'>JS Mastery</a></p>
 
-- **Vite**: Compilador extremadamente rápido y con soporte nativo para ES Modules. Mejora significativamente los tiempos de desarrollo.
-- **React 18**: Desarrollo moderno con la popular biblioteca para construcción de interfaces.
-- **TailwindCSS**: Framework de diseño que permite estilos altamente personalizables y de forma rápida.
-- **GSAP y React Icons**: Para animaciones fluidas y uso de íconos vectoriales.
-- **Eslint y Prettier**: Configuración para mantener un código limpio, legible y uniforme.
-- **PostCSS y Autoprefixer**: Mejores prácticas de CSS con soporte para navegadores modernos.
-- **HMR (Hot Module Replacement)**: Recarga instantánea de módulos para mejorar la productividad durante el desarrollo.
+<strong><a href="https://awwwards-web.onrender.com">LINK</a></strong>
 
----
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![GSAP](https://img.shields.io/badge/GSAP-93CF2B?style=for-the-badge&logo=greensock&logoColor=white)
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
 
-## 📁 Estructura del Proyecto
+<img src="portada.webp">
 
-La estructura básica de archivos es la siguiente:
+</div>
 
-```plaintext
-src/
-├── components/        # Componentes reutilizables
-├── pages/             # Páginas principales de la aplicación
-├── hooks/             # Custom Hooks
-├── styles/            # Estilos globales
-├── App.jsx            # Componente raíz
-├── main.jsx           # Entrada principal del proyecto
-public/                # Archivos estáticos y recursos públicos
-```
+## 🛠️ Tecnologías Utilizadas
 
----
+- **React**: Biblioteca de JavaScript para construir interfaces de usuario.
+- **Vite**: Herramienta de construcción rápida para proyectos web modernos.
+- **Tailwind CSS**: Framework de CSS para un diseño rápido y eficiente.
+- **GSAP**: Biblioteca de JavaScript que permite a los diseñadores y desarrolladores crear animaciones de alto rendimiento
 
-## ⚙️ Instalación
+## 📦 Instalación
 
-Sigue estos pasos para configurar el proyecto en tu máquina.
+1. Clona el repositorio:
+   ```sh
+   git clone https://github.com/samuhlo-training/awwwards-web.git
+   ```
+2. Navega al directorio del proyecto:
 
-1. Asegúrate de tener instalado **Node.js** y **npm** en tu entorno.
-    - Puedes descargarlo en [nodejs.org](https://nodejs.org/).
-
-2. Clona el repositorio:
-
-   ```bash
-   git clone <URL_DE_TU_REPOSITORIO>
+   ```sh
+   cd awwwards-web
    ```
 
-3. Accede al directorio del proyecto:
-
-   ```bash
-   cd nombre-del-proyecto
-   ```
-
-4. Instala las dependencias necesarias:
-
-   ```bash
+3. Instala las dependencias
+   ```sh
    npm install
    ```
 
-5. Inicia el servidor local de desarrollo:
+## 📜 Scripts Disponibles
 
-   ```bash
-   npm run dev
-   ```
-
-   Vite lanzará un servidor local en `http://localhost:3000`.
-
----
-
-## 🌟 Scripts Disponibles
-
-En este proyecto puedes usar los siguientes scripts:
-
-- **`npm run dev`**: Inicia el entorno de desarrollo con HMR (Hot Module Replacement).
-- **`npm run build`**: Genera los archivos optimizados para producción.
-- **`npm run preview`**: Vista previa del build de producción.
-- **`npm run lint`**: Revisa errores y advertencias en el código con ESLint.
-- **`npm run format`**: Aplica la configuración de Prettier para formatear el código.
-
----
-
-## 🛠️ Configuración Adicional
-
-### ESLint y Prettier
-El proyecto incluye configuraciones personalizadas para **ESLint** y **Prettier**, asegurando un código limpio y consistente. Puedes personalizarlas en los archivos `.eslintrc.js` y `.prettierrc`.
-
-### TailwindCSS
-Para modificar los estilos, edita el archivo `tailwind.config.js`, donde se pueden agregar configuraciones personalizadas para temas, colores, fuentes, entre otros.
-
-### GSAP y React Icons
-Se incluyen ejemplos básicos de animaciones con GSAP y el uso de íconos en React con la librería `react-icons`.
-
----
-
-## 📚 Tecnologías y Paqueterías Utilizadas
-
-| Tecnología           | Descripción                                               |
-|----------------------|-----------------------------------------------------------|
-| **React**            | Biblioteca para construir interfaces de usuario.          |
-| **Vite**             | Herramienta rápida para compilación y desarrollo.         |
-| **TailwindCSS**      | Framework de diseño CSS altamente personalizable.         |
-| **GSAP**             | Biblioteca para crear animaciones fluidas y atractivas.   |
-| **React Icons**      | Colección de íconos vectoriales para React.               |
-| **ESLint y Prettier**| Herramientas para mantener código limpio y uniformado.    |
-
----
-
-## 🎉 ¡Gracias!
-
-Gracias por utilizar este proyecto como punto de partida para tus desarrollos. ¡Espero que disfrutes trabajando con él tanto como yo lo hice al configurarlo!
+- **`pnpm dev`**: Inicia el servidor de desarrollo.
+- **`pnpm build`**: Construye la aplicación para producción.
+- **`pnpm lint`**: Ejecuta ESLint para encontrar y arreglar problemas en el código.
+- **`pnpm preview`**: Previsualiza la aplicación construida.
