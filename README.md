@@ -1,49 +1,86 @@
 <div align="center">
+  <br />
+  <br />
+  
+  # <code>AWWWARDS_WEB</code>
+  
+  **REACT GSAP ANIMATION LABORATORY**
+  
+  <br />
 
-# 🌟 Awwwards Web Style
+  <img src="https://img.shields.io/badge/REACT-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=black" alt="GSAP" />
+  <img src="https://img.shields.io/badge/TAILWIND-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind" />
+  <img src="https://img.shields.io/badge/VITE-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
 
-Este proyecto es una aplicación web construida con **React** y **GSAP**. Esta hecho para aprender las nociones basicas y el uso de GSAP con React en una web.
-
- <p>Creado siguiendo el curso de <a href='https://www.jsmastery.pro/'>JS Mastery</a></p>
-
-<strong><a href="https://awwwards-web.onrender.com">LINK</a></strong>
-
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![GSAP](https://img.shields.io/badge/GSAP-93CF2B?style=for-the-badge&logo=greensock&logoColor=white)
-![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
-
-<img src="portada.webp">
-
+  <br />
+  <br />
 </div>
 
-## 🛠️ Tecnologías Utilizadas
+---
 
-- **React**: Biblioteca de JavaScript para construir interfaces de usuario.
-- **Vite**: Herramienta de construcción rápida para proyectos web modernos.
-- **Tailwind CSS**: Framework de CSS para un diseño rápido y eficiente.
-- **GSAP**: Biblioteca de JavaScript que permite a los diseñadores y desarrolladores crear animaciones de alto rendimiento
+### 00 __ PREVIEW
 
-## 📦 Instalación
+![Hero Preview](portada.webp)
 
-1. Clona el repositorio:
-   ```sh
-   git clone https://github.com/samuhlo-training/awwwards-web.git
-   ```
-2. Navega al directorio del proyecto:
+> **ABSTRACT:** Proyecto de exploración de animaciones avanzadas con GSAP en React. Implementa transiciones fluidas, scroll triggers, y efectos visuales complejos usando la biblioteca de animación GSAP integrada con React components.
+>
+> <br />
+>
+> **ORIGIN:** Based on [JS Mastery Course](https://www.jsmastery.pro/).
+> *Adapted with custom components and animation patterns.*
+>
+> <br />
+>
+> **DEMO:** [awwwards-web.onrender.com](https://awwwards-web.onrender.com)
 
-   ```sh
-   cd awwwards-web
-   ```
+---
 
-3. Instala las dependencias
-   ```sh
-   npm install
-   ```
+### 01 __ ARCHITECTURE & DECISIONS
 
-## 📜 Scripts Disponibles
+| COMPONENT | TECH | NOTE |
+| :--- | :--- | :--- |
+| **Core** | `React 18 (Hooks)` | Functional components only. |
+| **Build** | `Vite` | Fast dev server and optimized builds. |
+| **Motion** | `GSAP / @gsap/react` | ScrollTrigger and advanced timeline animations. |
+| **Styles** | `Tailwind CSS` | Utility-first CSS framework. |
+| **Linting** | `ESLint` | Code quality enforcement. |
 
-- **`pnpm dev`**: Inicia el servidor de desarrollo.
-- **`pnpm build`**: Construye la aplicación para producción.
-- **`pnpm lint`**: Ejecuta ESLint para encontrar y arreglar problemas en el código.
-- **`pnpm preview`**: Previsualiza la aplicación construida.
+<br>
+
+### 02 __ INSTALLATION
+
+*Run local environment:*
+
+```bash
+# 1. Clone
+git clone https://github.com/samuhlo-training/awwwards-web.git
+
+# 2. Navigate to directory
+cd awwwards-web
+
+# 3. Install dependencies
+npm install
+
+# 4. Ignite
+npm run dev
+```
+
+### 03 __ SCRIPTS
+
+```bash
+npm run dev      # Start development server
+npm run build    # Build for production
+npm run lint     # Run ESLint
+npm run preview  # Preview production build
+```
+
+<div align="center">
+
+<br />
+
+<code>DESIGNED & CODED BY <a href='https://github.com/samuhlo'>samuhlo</a></code>
+
+<small>Lugo, Galicia</small>
+
+</div>
